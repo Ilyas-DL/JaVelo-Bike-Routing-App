@@ -8,7 +8,7 @@ This repository shares the project JaVelo part of Project Oriented Programming c
 
 Program example functionning:
 
-![JaVelo User Interface](javelo_screenshot.png)
+![JaVelo User Interface](plots/javelo_screenshot.png)
 
 ## Key Features
 * **Interactive Map Visualization:** Responsive map interface supporting panning, zooming, and dynamic tile loading (OSM).

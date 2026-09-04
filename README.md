@@ -1,6 +1,6 @@
 # JaVelo 🚴‍♂️🗺️
 
-![JaVelo User Interface](./path/to/your/image.png)
+![JaVelo User Interface](javelo_screenshot.png)
 
 ## Overview
 **JaVelo** is a robust desktop application designed to compute and visualize optimal bicycle routes across Switzerland. Developed as part of the rigorous EPFL CS-108 curriculum, this project features an interactive map, dynamic routing algorithms, and real-time elevation profile generation. 

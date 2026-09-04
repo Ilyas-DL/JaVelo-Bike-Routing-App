@@ -28,9 +28,15 @@ Program example functionning:
 The codebase is heavily modularized to separate data management, algorithmic logic, and user interface:
 
 ```text
-src/ch.epfl.javelo/
-├── data/         # Graph representation of the Swiss road network (Nodes, Edges, Attributes)
-├── gui/          # JavaFX controllers and UI components (AnnotatedMap, RouteManager, UI caching)
-├── projection/   # Mathematical models for coordinate transformations (CH1903 / WebMercator)
-├── routing/      # Core pathfinding algorithms, cost functions, and elevation computation
-└── test/         # Comprehensive unit testing suite
+.
+├── javelo/                  # Main Java source code
+│   ├── data/                # Graph representation of the Swiss road network
+│   ├── gui/                 # JavaFX controllers and UI components
+│   ├── projection/          # Mathematical models for coordinate transformations
+│   ├── routing/             # Core pathfinding algorithms, cost functions, and elevation computation
+│   └── *.java               # Core utility, math, and precondition classes
+├── javelo-data/             # Required local datasets, map caches, and elevation files
+├── plots/                   # Output directory for generated visualizations and profile plots
+├── resources/               # Application UI assets
+├── LICENCE                  # Project license
+└── README.md                # Project documentation
